@@ -16,7 +16,11 @@ substitutions:
   
   # enable for indoor units without condensate drain installed / will restrict operation to "heat" and "fan"
   disable_cooling_modes: "false" # XXX
-  
+
+  # UART pins for AC communication (defaults for ESP32)
+  uart_tx_pin: "GPIO25" # XXX
+  uart_rx_pin: "GPIO26" # XXX
+
 
 # Encryption key for HA. See https://esphome.io/components/api.html.
 api:
